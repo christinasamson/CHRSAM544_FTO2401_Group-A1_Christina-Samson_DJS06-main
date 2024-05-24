@@ -60,8 +60,9 @@ console.log(nameToProvince);
 // Advanced Exercises (Single console.log Execution)
 
 // 1. Log Products
-// Iterate over the products array, logging each product name
-console.log(products.forEach(product => console.log(product.product)));
+// Iterate over the products arraylogging each product name
+console.log(products.map(product => product.product).join('\n'));
+
 
 // 2. Filter by Name Length
 // Filter out products with names longer than 5 characters
